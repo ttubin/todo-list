@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    color: #2e8b57;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.todo-list-template {
+    margin: 4rem auto;
+    width: 50%;
+    background-color: #f0e68c;
+    border: 3px solid #2e8b57;
+}
+
+.title {
+    padding: 2rem;
+    color: #f0e68c;
+    /* color: #2e8b57; */
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: #2e8b57;
+    border-bottom: 3px solid #2e8b57;
+}
+
+.form-wrapper {
+    padding: 1rem;
+    border-bottom: 3px solid #2e8b57;
+}
+
+.todos-wrapper {
+    padding: 1rem;
+    min-height: 5rem;
+}
